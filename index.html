@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Delight</title>
+    <link rel="stylesheet" href="dot.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+</head>
+<body>
+    
+    <header>
+        <h1>Coffee Delight</h1>
+        <nav>
+           
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#ordernow">OrderNow</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>"START YOUR DAY WITH</h1>
+                <H1><strong><I>COFFEE"</I></strong> 
+                    
+            </h1>
+            <p>Your ultimate source for the finest coffee.</p>
+            <button onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in premium coffee sourced from the best regions around the world.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+<footer>
+        <div class="icons">
+            <i class="ri-instagram-line"></i>
+            <i class="ri-twitter-line"></i>
+
+        </div>
+        <p>&copy; 2024 Coffee Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="dot.js"></script>
+</body>
+</html>
